@@ -1,4 +1,93 @@
-header {
-    
+/* everything */
+* {
+    font-family: "Roboto", sans-serif;
+}
+/* everything */
+
+
+
+
+/* header */
+header, footer {
+    background-color: #1F2937;
 }
 
+header h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+header h2, a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+header a {
+    text-align: right;          /* not working as expected */
+}
+
+header.item {
+    font-size: 48px;
+}
+
+button {
+    background-color: #3882F6;
+    /* need to round corners */
+}
+/* header */
+
+
+
+
+/* information-container */
+.information-container h1 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+
+.information-container p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+/* information-container */
+
+
+
+
+
+/* quote-container */
+.quote-container h1 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937
+}
+
+.quote-container {
+    background-color: #EFE7EB;
+}
+/* quote-container */
+
+
+
+
+
+/* action-container */
+.action-container h2 {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+/* action-container */
+
+
+
+
+
+
+/* footer */
+footer p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+/* footer */
